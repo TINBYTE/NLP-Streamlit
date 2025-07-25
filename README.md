@@ -23,15 +23,7 @@ git https://github.com/TINBYTE/NLP-Streamlit.git
 cd NLP-Streamlit
 ```
 
-### 2. Créer un environnement virtuel (optionnel mais recommandé)
-
-```bash
-python -m venv venv
-source venv/bin/activate      # sous Linux/macOS
-venv\Scripts\activate         # sous Windows
-```
-
-### 3. Installer les dépendances
+### 2. Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
@@ -42,7 +34,7 @@ pip install -r requirements.txt
 pip install streamlit transformers torch scipy
 ```
 
-### 4. Lancer l’application
+### 3. Lancer l’application
 
 ```bash
 streamlit run app.py
