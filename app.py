@@ -3,12 +3,12 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
 import torch
 
-# Titre de l'application
-st.title("🧠 Analyse de Sentiment Amazon (NLP)")
+# Titre de l'app
+st.title("Analyse de Sentiment Amazon (NLP)")
 
 st.markdown("Saisis un **avis client** et découvre s'il est **positif**, **négatif** ou **neutre**.")
 
-# Zone de saisie de texte
+# Zone de text
 user_input = st.text_area("✍️ Écris ton avis ici :", height=150)
 
 # Charger le modèle et tokenizer
